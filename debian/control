@@ -1,0 +1,17 @@
+Source: metalink
+Section: net
+Priority: extra
+Maintainer: Patrick Ruckstuhl <patrick@tario.org>
+Build-Depends: debhelper (>= 7), autotools-dev, libglibmm-2.4-dev,
+ libgcrypt-dev, libboost-program-options-dev, libboost-filesystem-dev,
+ libboost-regex-dev
+Standards-Version: 3.9.2
+Homepage: http://metalinks.sf.net
+
+Package: metalink
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Generator for Metalink files
+ Metalink is a Metalink generation tool. It combines a list of mirrors
+ and a number of files into one Metalink record (stdout). It can also
+ be used to transform a MD5SUMS file into a metalink.
