@@ -28,7 +28,7 @@ std::string HashPieces::xml() const
 			
 			ost << "<pieces length=\"" << d_size << "\" type=\"" << d_pieces[0]->name() << "\">\n";
 
-			for(vector<Hash>::size_type i(0);
+			for(vector<Hash*>::size_type i(0);
 				i < d_pieces.size();
 				++i)
 			{
