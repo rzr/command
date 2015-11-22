@@ -1,0 +1,14 @@
+metalink (0.3.6-2) unstable; urgency=low
+
+  * Updated to latest policy
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Added --as-needed to ld
+  * Added patch for dependencies in Makefiles (Closes: #641641) 
+
+ -- Patrick Ruckstuhl <patrick@tario.org>  Tue, 20 Sep 2011 23:46:58 +0200
+
+metalink (0.3.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #503248)
+
+ -- Patrick Ruckstuhl <patrick@tario.org>  Sat, 02 May 2009 20:35:22 +0200
