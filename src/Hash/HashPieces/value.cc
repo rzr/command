@@ -25,7 +25,7 @@ std::string const &HashPieces::value() const
 	static std::string value;
 	//assert(false);
 	ostringstream ost;
-	for(vector<Hash>::size_type i(0);
+	for(vector<Hash*>::size_type i(0);
 		i < d_pieces.size();
 		++i)
 	{
